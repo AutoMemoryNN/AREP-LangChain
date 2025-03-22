@@ -37,6 +37,15 @@ LANGSMITH_API_KEY=tu_clave_api_de_langsmith (opcional)
 LANGSMITH_TRACING=true (opcional)
 ```
 
+## Requerimientos
+langchain>=0.1.0
+langchain-openai>=0.0.1
+langchain-core>=0.1.0
+openai>=1.1.0
+python-dotenv>=1.0.0
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
 ## Uso
 
 Ejecuta el script principal:
@@ -60,14 +69,6 @@ jupyter notebook LLM_Chain_Tutorial.ipynb
 ├── translate.py
 └── LLM_Chain_Tutorial.ipynb
 ```
-
-## Ejemplos
-
-### Funcionamiento de la aplicación
-
-![Ejemplo de Traducción](screenshots/traduccion_ejemplo.png)
-
-Este ejemplo muestra la traducción de "Hello, how are you?" del inglés al español.
 
 ## Recursos Adicionales
 
